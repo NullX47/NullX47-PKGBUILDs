@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 
 ## execute the script again the good repo
-grep -sq archlinux-aur .git/config
+grep -sq NullX47-PKGBUILDs .git/config
 if [[ $? -ne 0 ]]
   then
-    echo "Not in archlinux-aur Repo !"
+    echo "Not in NullX47-PKGBUILDs Repo !"
     exit 10
 fi
 
